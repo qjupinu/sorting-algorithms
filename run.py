@@ -22,13 +22,14 @@ def main():
         return
     
     algo_files = [
-        {"file": "radix_10.py", "name": "RadixSort_b10"},
-        {"file": "radix_2_16.py", "name": "RadixSort_b2^16"},
-        {"file": "quick.py", "name": "QuickSort"}
-        # {"file": "merge.py", "name": "MergeSort"},
-        # {"file": "shell.py", "name": "ShellSort"},
-        # {"file": "tim.py", "name": "TimSort"},
-        # {"file": "heap.py", "name": "HeapSort"},
+        {"file": "algorithms/default.py", "name": "Py3.12 Default sort()"},
+        {"file": "algorithms/radix_10.py", "name": "RadixSort_b10"},
+        {"file": "algorithms/radix_2_16.py", "name": "RadixSort_b2^16"},
+        # {"file": "algorithms/merge.py", "name": "MergeSort"},
+        {"file": "algorithms/shell.py", "name": "ShellSort"},
+        {"file": "algorithms/tim.py", "name": "TimSort"},
+        {"file": "algorithms/heap.py", "name": "HeapSort"},
+        {"file": "algorithms/quick.py", "name": "QuickSort"},
     ]
     
     with open(tests_file, 'r') as tf:

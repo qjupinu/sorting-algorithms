@@ -5,7 +5,7 @@ import sys
 def timeout_handler(signum, frame):
     sys.exit(1)
 signal.signal(signal.SIGALRM, timeout_handler)
-signal.alarm(60)
+signal.alarm(75)
 
 # counting sort for bits
 def cnt_sort(v, shift, mask):
@@ -34,7 +34,6 @@ def cnt_sort(v, shift, mask):
 
 def radix_sort(v, max_val):
     mask = (1 << 16) - 1 
-    max_bits = max_val.bit_length()
     iteration_no = (max_val.bit_length() + 15) // 16 
     
     for i in range(iteration_no):

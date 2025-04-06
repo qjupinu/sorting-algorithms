@@ -5,7 +5,7 @@ import sys
 def timeout_handler(signum, frame):
     sys.exit(1)
 signal.signal(signal.SIGALRM, timeout_handler)
-signal.alarm(60)
+signal.alarm(75)
 
 sys.setrecursionlimit(10**6)
 
