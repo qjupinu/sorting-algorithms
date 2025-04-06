@@ -24,7 +24,7 @@ def main():
     algo_files = [
         {"file": "radix_10.py", "name": "RadixSort_b10"},
         {"file": "radix_2_16.py", "name": "RadixSort_b2^16"},
-        #{"file": "quick.py", "name": "QuickSort"}
+        {"file": "quick.py", "name": "QuickSort"}
         # {"file": "merge.py", "name": "MergeSort"},
         # {"file": "shell.py", "name": "ShellSort"},
         # {"file": "tim.py", "name": "TimSort"},
@@ -56,7 +56,7 @@ def main():
                 else:
                     status = "FAIL"
 
-                print(f"{algo['name']}: {status}, time: {end_time - start_time:.3f}")
+                print(f"{algo['name']}: {status}, time: {end_time - start_time:.3f}s")
 
             if os.path.exists("input.txt"):
                 os.remove("input.txt")
