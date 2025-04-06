@@ -25,7 +25,7 @@ def main():
         {"file": "algorithms/default.py", "name": "Py3.12 Default sort()"},
         {"file": "algorithms/radix_10.py", "name": "RadixSort_b10"},
         {"file": "algorithms/radix_2_16.py", "name": "RadixSort_b2^16"},
-        # {"file": "algorithms/merge.py", "name": "MergeSort"},
+        {"file": "algorithms/merge.py", "name": "MergeSort"},
         {"file": "algorithms/shell.py", "name": "ShellSort"},
         {"file": "algorithms/tim.py", "name": "TimSort"},
         {"file": "algorithms/heap.py", "name": "HeapSort"},
